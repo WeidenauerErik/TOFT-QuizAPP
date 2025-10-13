@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { MaterialCard } from '../components/MaterialCard';
-import { MaterialButton } from '../components/MaterialButton';
 import { ChevronLeft, Trophy, Medal, Award } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { getQuizById } from '../lib/quizHelpers';

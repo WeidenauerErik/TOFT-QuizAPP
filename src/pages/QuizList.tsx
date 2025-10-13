@@ -5,7 +5,7 @@ import { QRScanner } from '../components/QRScanner';
 import { QrCode, Trophy } from 'lucide-react';
 import { getUserId } from '../lib/storage';
 import { supabase } from '../lib/supabase';
-import { quizzes, getQuizById } from '../lib/quizHelpers';
+import { getQuizById } from '../lib/quizHelpers';
 
 interface QuizListProps {
   onSelectQuiz: (quizId: string) => void;
