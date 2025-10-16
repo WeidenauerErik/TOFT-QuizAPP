@@ -4,7 +4,6 @@ import { MaterialButton } from '../components/MaterialButton';
 import { QRScanner } from '../components/QRScanner';
 import { QrCode, Trophy } from 'lucide-react';
 import { getUserId } from '../lib/storage';
-import { supabase } from '../lib/supabase';
 import { getQuizById } from '../lib/quizHelpers';
 
 interface QuizListProps {

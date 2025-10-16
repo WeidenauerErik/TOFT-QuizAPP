@@ -4,7 +4,6 @@ import { MaterialButton } from '../components/MaterialButton';
 import { ChevronLeft, CheckCircle2, XCircle } from 'lucide-react';
 import { quizData } from '../data/quizData';
 import { getUserId, markQuizCompleted } from '../lib/storage';
-import { supabase } from '../lib/supabase';
 
 interface QuizProps {
   quizId: string;
