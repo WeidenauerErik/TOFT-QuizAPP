@@ -53,13 +53,8 @@ export function Quiz({ quizId, userName, onBack }: QuizProps) {
     try {
       const userId = getUserId();
 
-      const { error } = await supabase.from('quiz_results').insert({
-        user_id: userId,
-        user_name: userName,
-        quiz_id: quiz.id,
-        quiz_tag: quiz.tag,
-        score: score
-      });
+      // TODO api für Quiz reinschreiben mit score und so
+      // /api/quizzes POST -> Attribute(userId,)
 
       if (error) {
         console.error('Error submitting quiz:', error);
